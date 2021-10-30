@@ -1,4 +1,4 @@
-var programmableButton = function () {
+function programmableButton() {
     const runFunction = () => { console.log('Hello world') };
     var buttonProperties = {
         title: "Alert",

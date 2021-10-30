@@ -1,4 +1,4 @@
-var programmableButton = function () {
+function programmableButton () {
     const runFunction = () => { console.log('Printing....') };
     var buttonProperties = {
         title: "print",
