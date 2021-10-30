@@ -1,2 +1,9 @@
-const buttonTitle = "Test";
-const buttonContent = "TestContent";
+var programmableButton = function () {
+    const runFunction = () => { console.log('Hello world') };
+    var buttonProperties = {
+        title: "Alert",
+        content: "Hello world!",
+        run: runFunction
+    };
+    return textMultiple;
+}

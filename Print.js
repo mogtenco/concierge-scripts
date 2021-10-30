@@ -1,2 +1,9 @@
-const buttonTitle = "Print";
-const buttonContent = "Current Print Jobs";
+var programmableButton = function () {
+    const runFunction = () => { console.log('Printing....') };
+    var buttonProperties = {
+        title: "print",
+        content: "print jobs: 10",
+        run: runFunction
+    };
+    return textMultiple;
+}
